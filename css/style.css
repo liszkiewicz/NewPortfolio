@@ -1,0 +1,424 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+abbr,
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #FFD100;
+  /*
+  padding: 0 0.6rem 0.4rem 0.6rem;
+  border: 2px solid #000;
+  */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+address {
+  font-style: normal;
+}
+:focus {
+  outline: 0;
+}
+a {
+  color: inherit;
+  cursor: pointer;
+}
+html,
+body {
+  color: #fff;
+  background-color: #2774AE;
+  /* background-color: #e54831; */
+}
+html {
+  font-size: 16px;
+  /*font-family: 'Ideal Sans A', 'Ideal Sans B', verdana, sans-serif;*/
+  font-family: 'Oswald', 'Open Sans', sans-serif;
+  font-style: normal;
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sm,
+time {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 2.5;
+}
+figcaption {
+  /*padding-top: 4px;*/
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+h3{
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #000;
+  background-color: #FFD100;
+  text-transform: uppercase;
+  /*display: inline-block;*/
+}
+.sm {
+  color: #fff;
+  background-color: #003B5C;
+}
+@media (min-width: 600px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  figcaption,
+  .sm,
+  time {
+    font-weight: 500;
+  }
+}
+p,
+address {
+  font-size: 2rem;
+  font-weight: 200;
+  line-height: 1.6;
+}
+@media (min-width: 600px) {
+  p,
+  address {
+    font-weight: 200;
+    font-size: 3.5rem;
+  }
+}
+.home main {
+  position: relative;
+  margin: 3rem 1rem 10rem 1rem;
+}
+.home main p,
+.home main h3,
+.home main address,
+.home main time,
+.home main abbr {
+  z-index: 1;
+}
+@media (min-width: 600px) {
+  .home main {
+    margin-top: 3rem;
+    display: grid;
+    grid-column-gap: 2rem;
+    align-items: end;
+    grid-template-columns: 22% 1fr;
+  }
+}
+
+.home a:not(.internal) {
+  cursor: ne-resize;
+}
+@media (min-width: 600px) {
+  .home p,
+  .home address {
+    grid-column: 2;
+  }
+}
+.home .mz-img,
+.home .bcns-img,
+.home .sgeda-img {
+  display: none;
+  position: absolute;
+  height: auto;
+  z-index: 0;
+}
+.home h3 {
+  margin-top: 2rem;
+}
+@media (min-width: 600px) {
+  .home h3 {
+    margin-top: 5rem;
+    grid-column: 1;
+    justify-self: end;
+    position: relative;
+    top: -5rem;
+  }
+}
+.home time {
+  display: none;
+}
+@media (min-width: 600px) {
+  .home time {
+    display: inline;
+  }
+}
+.home time,
+.home .sm {
+  margin-left: 1rem;
+}
+@media (min-width: 600px) {
+  .home time,
+  .home .sm {
+    position: relative;
+    bottom: 1rem;
+  }
+}
+.home address .sm {
+  margin-right: 1rem;
+}
+.work main {
+  margin: 1rem 1rem 10rem 1rem;
+}
+@media (min-width: 600px) {
+  .work main {
+    margin: 4vh 4vw 10vh 4vw;
+  }
+}
+.work h2,
+.work figcaption {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+.work h2 .title,
+.work figcaption .title {
+  font-style: italic;
+}
+.work h2 .line:before,
+.work figcaption .line:before {
+  content: '';
+  display: block;
+}
+@media (min-width: 600px) {
+  .work h2 .line:before,
+  .work figcaption .line:before {
+    display: inline;
+    content: ' - ';
+  }
+}
+@media (min-width: 800px) {
+  .work p {
+    width: 70%;
+  }
+}
+@media (min-width: 1800px) {
+  .work p {
+    width: 40%;
+  }
+}
+/*.work p a {
+  padding: 0 0.6rem 0.4rem 0.6rem;
+  border: 1px solid #000;
+}*/
+.work a:not(.internal) {
+  cursor: ne-resize;
+}
+.work .slide {
+  cursor: e-resize;
+  display: block;
+}
+.skinner main {
+  margin: 0;
+  margin-bottom: 10vh;
+  overflow-x: hidden;
+}
+.skinner main h2,
+.skinner main p {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media (min-width: 600px) {
+  .skinner main h2,
+  .skinner main p {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+}
+.skinner main figure {
+  width: 100vw;
+  margin: -1vw auto 0 0;
+}
+@media (min-width: 600px) {
+  .skinner main figure {
+    margin-top: 1vh;
+    margin-left: 3vw;
+  }
+}
+@media (min-width: 600px) {
+  .skinner main figure {
+    max-width: 600px;
+  }
+}
+.skinner main figure img {
+  width: 100%;
+  height: auto;
+}
+.sticks figure {
+  max-width: 788px;
+}
+.sticks figure img {
+  width: 100%;
+  height: auto;
+}
+.praise .old-school-grid {
+  max-width: 800px;
+  vertical-align: top;
+  letter-spacing: -0.31em;
+  font-size: 0;
+}
+.praise .old-school-grid figure {
+  display: inline-block;
+  letter-spacing: normal;
+  width: 33.333333333333336%;
+}
+@media (min-width: 600px) {
+  .praise .old-school-grid figure {
+    width: 20%;
+  }
+}
+.praise .old-school-grid figure img {
+  width: 100%;
+  height: auto;
+}
+.hokkaido h2 {
+  margin-bottom: 0.5rem;
+}
+.hokkaido .flex {
+  letter-spacing: -0.31em;
+  font-size: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+@media (min-width: 600px) {
+  .hokkaido .flex {
+    width: 80%;
+  }
+}
+@media (min-width: 1800px) {
+  .hokkaido .flex {
+    width: 50%;
+  }
+}
+.hokkaido figure {
+  width: 40px;
+  padding: 0 10px 10px 0;
+}
+.hokkaido figure img {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 600px)
+  .hokkaido figure {
+    width: 60px;
+  }
+}
+@media (min-width: 1800px) {
+  .hokkaido figure {
+    padding: 0 20px 20px 0;
+  }
+}
+.sgeda main {
+  overflow-x: hidden;
+}
+.sgeda figure {
+  max-width: 709px;
+}
+.sgeda img {
+  width: 116%;
+  height: auto;
+  margin: -4% -8% -8% -8%;
+}
+
+/* Margins and White Space */
+.margins {
+  margin: 50px 10% 50px 10%;
+  font-size: 3rem;
+}
+.spacer-after-nav {margin-top: 150px;}
+.ending-spacer {margin-bottom: 300px;}
+
+@media (max-width: 600px) {
+  .margins p {
+    font-size: 2rem;
+  }
+}
+
+.margins a:not(.internal) {
+  cursor: ne-resize;
+}
+
+/*
+.margins .slide {
+  cursor: e-resize;
+  display: block;
+}
+*/
+
+.marginsInterior {
+  margin: 20px 05% 20px 05%;
+  font-size: 3rem;
+}
+
+.marginsInterior blockquote {
+  margin: 50px 0 50px 0;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.marginsInterior li {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+@media (max-width: 600px) {
+  .marginsInterior p {
+    font-size: 2rem;
+  }
+  .marginsInterior blockquote {
+    font-size: 1.5rem;
+  }
+  .marginsInterior li {
+    font-size: 1.5rem;
+  }
+}
+
+/* Responsive images */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* Style important sentences to stand out. */
+.highlight {
+  padding-left: 4px;
+  padding-right: 4px;
+  color: #fff;
+  background-color: #003B5C;
+}
+.highlight a:hover {
+  background-color: #003B5C;
+}
+
+/* Extra space above some captions */
+.captionSpace {
+  padding-top: 10px;
+}
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/69386/6460372/css/fonts.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta name="description" content="Add project description here">
+</head>
+
+<!--<body class="work skinner">-->
+<body>
+<a name="top"></a>
+<div class="margins">
+    <main>
+        <p>
+        <a class="internal" href="../index.html"><img src="../img/headBack.png" alt="Adam"></a>
+        </p>
+        <!--Logline-->
+        <p class="marginsInterior">This is a description of <a href="http://www.boxingskinner.com">A Generic Project</a>, which you can interact with in a specific way.
+        </p>
+        <figure><img src="../img/CCC_Banner.jpg" class="responsive"></figure>
+
+        <!--Project Description: Meaning and Context-->
+        <p class="marginsInterior">Here you should add more information about the project. Elaborate on the intent and meaning of the work. Blibbity blah blah blah, filling up space here, trying to see what it'll look like. I should've used bacon ipsum. Bacon is delicious. Ok, that's enough.
+        </p>
+
+        <!-- Adding an image carousel here. Includes captions.-->
+        <figure class="slide" onClick="slide(1)"><img style="height: 100%; width: 100%; object-fit: contain" src="../img/CCC1.jpg">
+            <figcaption>
+                <nav>
+                    <a onClick="slide(-1)">
+                        <<</a><span>&nbsp;&nbsp;&nbsp;</span><a onClick="slide(1)">>></a></nav>
+                        This is where you'd write a short caption for the first photograph. Number the image file here "ProjectName1".
+                        </figcaption>
+                        <!--
+                        <span class="title">Akio Calibo</span> - <span class="line">3,298 lines using pen tablet</span> - <span class="line">Inkjet Print</span> - <span class="line">45in. x 70.5in</span> - <span class="line">2017</span></figcaption>
+                        -->
+        </figure>
+        <figure class="slide no-margin" onClick="slide(1)"><img style="height: 100%; width: 100%; object-fit: contain" src="../img/CCC3.jpg">
+            <figcaption>
+                <nav>
+                    <a onClick="slide(-1)">
+                        <<</a><span>&nbsp;&nbsp;&nbsp;</span><a onClick="slide(1)">>></a></nav>
+                        This is where you'd write a short caption for the second photograph. Number the image file here "ProjectName3", because the slider works out of order.
+                        </figcaption>
+        </figure>
+        <figure class="slide no-margin" onClick="slide(1)"><img style="height: 100%; width: 100%; object-fit: contain" src="../img/CCC2.jpg">
+            <figcaption>
+                <nav>
+                    <a onClick="slide(-1)">
+                        <<</a><span>&nbsp;&nbsp;&nbsp;</span><a onClick="slide(1)">>></a></nav>
+                        This is where you'd write a short caption for the third photograph. Remember: number the image file here "ProjectName2".
+                        </figcaption>
+        </figure>
+        <figure class="slide no-margin" onClick="slide(1)"><img style="height: 100%; width: 100%; object-fit: contain" src="../img/CCC4.jpg">
+            <figcaption>
+                <nav>
+                    <a onClick="slide(-1)">
+                        <<</a><span>&nbsp;&nbsp;&nbsp;</span><a onClick="slide(1)">>></a></nav>
+                        This is where you'd write a short caption for the fourth photograph. Remember: number the image file here "ProjectName4".
+                        </figcaption>
+        </figure>
+
+       <!--Project Description: What you did, and the state of the project-->
+        <p class="marginsInterior">Finally, this is the place to describe your role on the project, and the state of the project as well. Say you did x, y, and z, then talk about the project's release date, and/or what remains to be done. No need to talk too much about awards and exhibitions and stuff here -- unless that's the paradigm you want to follow?
+        </p>
+
+        <!-- Video embed test. You want the video to scale responsively. Use this: https://embedresponsively.com/ -->
+        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/t6cvIT8NCXg' frameborder='0' allowfullscreen></iframe></div>
+        <figcaption>
+            This is something you might write that would appear underneath the video.
+        </figcaption>
+
+        <!-- This is the place for lists of exhibitions, publications, awards, etc. Should probably use bullet points. -->
+        <div class="marginsInterior">
+        <p>Exhibitions
+            <ul class="marginsInterior">
+              <li><a href="https://interactivedemoday.weebly.com/about.html">InterActive Demo Day</a>, EMPAC, Troy, NY, Spring 2014</li>
+              <li>Something else that's pretty cool.</li>
+              <li>The RUST offices, probably.</li>
+            </ul>
+        </p>
+        </div>
+        <div class="marginsInterior">
+        <p>Press
+            <ul class="marginsInterior">
+              <li><a href="https://interactivedemoday.weebly.com/about.html">InterActive Demo Day</a>, EMPAC, Troy, NY, Spring 2014</li>
+              <li>Polygon made a video about us that one time.</li>
+              <li>Hey, how about that Buzzfeed article?</li>
+            </ul>
+        </p>
+        <!-- Add a quote if you've got a relevant one here. -->
+        <blockquote>
+            “[H3VR] proves how powerful a medium virtual reality can be for encountering something that may make you uncomfortable in real life, in a way that’s completely safe.” -- Ben Kuchera, Polygon
+        </blockquote>
+        </div>
+
+    <!-- Head as button leading to top of page. -->
+        <p>
+        <a class="internal" href="#top"><img src="../img/head.png" alt="Adam"></a>
+        </p>
+    </main>
+    <script type="text/javascript" src="../js/slide.js"></script>
+</div>
+</body>
+
+</html>

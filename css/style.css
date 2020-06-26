@@ -36,7 +36,8 @@ a {
 html,
 body {
   color: #fff;
-  background-color: #2774AE;
+  background-color: #18453B;
+  /* background-color: #2774AE; */
   /* background-color: #e54831; */
 }
 html {
@@ -73,14 +74,17 @@ figcaption {
 h3{
   padding-left: 4px;
   padding-right: 4px;
-  color: #000;
-  background-color: #FFD100;
+  color: #fff;
+  background-color: #000;
+  /* background-color: #FFD100; */
   text-transform: uppercase;
   /*display: inline-block;*/
 }
 .sm {
   color: #fff;
-  background-color: #003B5C;
+  /* color: #18453B; */
+  background-color: #000;
+  /* background-color: #003B5C; */
 }
 @media (min-width: 600px) {
   h1,
@@ -410,7 +414,8 @@ address {
   padding-left: 4px;
   padding-right: 4px;
   color: #fff;
-  background-color: #003B5C;
+  background-color: #000;
+  /* background-color: #003B5C; */
 }
 .highlight a:hover {
   background-color: #003B5C;

@@ -36,7 +36,8 @@ a {
 html,
 body {
   color: #fff;
-  background-color: #18453B;
+  background-color: #872c15;
+  /* background-color: #18453B; */ /* MSU green*/
   /* background-color: #2774AE; */
   /* background-color: #e54831; */
 }
@@ -358,7 +359,7 @@ address {
 
 @media (max-width: 600px) {
   .margins p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -375,7 +376,7 @@ address {
 
 .marginsInterior {
   margin: 20px 05% 20px 05%;
-  font-size: 3rem;
+  font-size: 2.6rem;
 }
 
 .marginsInterior blockquote {
@@ -418,7 +419,7 @@ address {
   /* background-color: #003B5C; */
 }
 .highlight a:hover {
-  background-color: #003B5C;
+  background-color: #000000;
 }
 
 /* Extra space above some captions */
